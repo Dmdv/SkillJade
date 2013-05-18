@@ -21,9 +21,8 @@ namespace MediaRepositoryWebRole
 
 		public MediaRepositoryService()
 		{
-			var userContext = ServiceFactory.CreateUserContext();
 			_userManager = new UserManager(
-				userContext);
+				ServiceFactory.CreateUserContext());
 
 			_deviceManager = new DeviceManager(
 				ServiceFactory.CreateDeviceContext(), 

@@ -90,6 +90,14 @@
     <Compile Include="BusinessLogic\DeviceManager.cs" />
     <Compile Include="BusinessLogic\MediaManager.cs" />
     <Compile Include="BusinessLogic\UserManager.cs" />
+    <Compile Include="Data\Answer.cs" />
+    <Compile Include="Data\Autor.cs" />
+    <Compile Include="Data\FileStreamInfo.cs" />
+    <Compile Include="Data\Media.cs" />
+    <Compile Include="Data\Question.cs" />
+    <Compile Include="Data\Result.cs" />
+    <Compile Include="Data\Test.cs" />
+    <Compile Include="Data\User.cs" />
     <Compile Include="Entities\MediaSize.cs" />
     <Compile Include="Exceptions\BlobContainerCreateException.cs" />
     <Compile Include="Exceptions\DalException.cs" />
